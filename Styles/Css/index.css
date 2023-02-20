@@ -1,0 +1,16 @@
+
+#body{
+    background-image: url(https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#eshop{
+    font-size: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#homeBtn{
+    text-decoration: none;
+}

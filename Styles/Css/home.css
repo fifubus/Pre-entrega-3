@@ -1,0 +1,107 @@
+
+#body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+}
+
+#navbar{
+    padding: 10px;
+}
+
+/*-------------------------------CONTENT----------------------------------*/
+
+#eshop_title{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#shop_link{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+#cart_link{
+    padding-left: 20px;
+}
+
+#prod_title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#card_subtitle{
+    margin-bottom: 10px;
+}
+
+#ropaInt{
+    height: 286px;
+}
+
+#gloves_img{  
+    height: 286px;
+}
+
+.card{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#container_content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*-------------------------------MEDIA QUERYS----------------------------------*/
+
+@media (max-width: 992px){
+    #shop_link{
+        padding: 0%;
+        padding-top: 20px;
+    }
+    #cart_link{
+        padding: 0%;
+    }
+}
+
+@media (max-width: 766px){
+    #container_content{
+        position: relative;
+        left: 110px;
+    }
+}
+
+@media (max-width: 510px){
+    #container_content{
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media (max-width: 440px){
+    #container_content{
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (max-width: 400px){
+    #container_content{
+        position: relative;
+        left: 15px;
+    }
+}
+
+@media (max-width: 336px){
+    #container_content{
+        position: relative;
+        left: 0px;
+    }
+}
+
+
+
+
